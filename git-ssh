@@ -1,0 +1,17 @@
+#xclip is an app that allows to push the pipe into clipboard
+sudo apt-get install xclip
+# pacman?
+
+#install git
+
+sudo apt-get install git
+# pacman?
+
+#generate ssh
+ssh-keygen -t rsa -b 4096 -C "stashkodenis@gmail.com"
+
+#id_rsa.pub - change depending on your output
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+#add or update it on github through editing profile
+# https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
